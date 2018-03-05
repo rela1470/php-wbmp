@@ -7,9 +7,9 @@
  */
 
 // Path to the target png
-$path = './pic_127x127.png';
+$path = './pic_8x8.png';
 
 // Get the image sizes
 $image = getimagesize($path);
 
-png2wbmp($path, './pic_127x127.wbmp', $image[1], $image[0], 7);
+png2wbmp($path, './pic_8x8.wbmp', $image[1], $image[0], 7);
